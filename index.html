@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferramenta Online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Ferramenta Online</h1>
+        <div id="cart">
+            <span>Carrello: <span id="cart-count">0</span> articoli</span>
+        </div>
+    </header>
+    
+    <div class="products">
+        <!-- I prodotti verranno caricati dinamicamente qui -->
+    </div>
+
+    <div class="cart-modal" id="cart-modal">
+        <h2>Il tuo Carrello</h2>
+        <div id="cart-items"></div>
+        <div id="total"></div>
+        <button id="checkout">Procedi al pagamento</button>
+        <button id="close-modal">Chiudi</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
